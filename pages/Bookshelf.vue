@@ -27,14 +27,14 @@
 </template>
 
 <script>
+import { mapState } from "vuex";
+
 export default {
   created() {
     this.$store.dispatch("getBooks", this.$route.query.q);
   },
   computed: {
-    books() {
-      return this.$store.state.books;
-    },
+    ...mapState(["books"]),
   },
   watchQuery(newQuery) {
     this.$store.dispatch("getBooks", newQuery.q);

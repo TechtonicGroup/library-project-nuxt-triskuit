@@ -48,14 +48,13 @@
 
 <script>
 import axios from "axios";
+import { mapState } from "vuex";
 export default {
   created() {
     this.$store.dispatch("getBook", this.$route.params.id);
   },
   computed: {
-    book() {
-      return this.$store.state.book;
-    },
+    ...mapState([book]),
   },
   methods: {
     deleteBook() {
