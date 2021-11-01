@@ -1,7 +1,13 @@
 <template>
   <div>
     <v-row class="justify-center my-6">
-      <h1>{{ header }}</h1>
+      <h1>
+        {{
+          this.$route.query.q
+            ? `Results for "${this.$route.query.q}"`
+            : "Release the Kraken of Knowledge"
+        }}
+      </h1>
     </v-row>
     <div class="d-flex flex-wrap gap justify-center w-auto">
       <Card
@@ -22,11 +28,6 @@
 
 <script>
 export default {
-  data() {
-    return {
-      header: "Release the Kraken of Knowledge",
-    };
-  },
   created() {
     this.$store.dispatch("getBooks", this.$route.query.q);
   },
@@ -37,7 +38,6 @@ export default {
   },
   watchQuery(newQuery) {
     this.$store.dispatch("getBooks", newQuery.q);
-    this.header = `Results for "${newQuery.q}"`;
   },
 };
 </script>

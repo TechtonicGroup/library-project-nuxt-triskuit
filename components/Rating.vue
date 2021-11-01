@@ -27,14 +27,14 @@ export default {
       rating: this.initRating,
     };
   },
-  // mounted() {
-  //   console.log("setting new rating to " + this.rating);
-  //   console.log(this);
-  //   this.newRating = this.rating;
-  // },
   computed: {
     readOnly() {
       return this.$nuxt.$route.name === "book-id";
+    },
+  },
+  watch: {
+    initRating: function (newVal, oldVal) {
+      this.rating = this.initRating;
     },
   },
 };

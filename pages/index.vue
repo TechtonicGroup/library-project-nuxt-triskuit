@@ -24,6 +24,7 @@
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione neque
         amet unde magnam. Excepturi quo deleniti quisquam ipsam est asperiores!
       </p>
+      ``
 
       <v-btn to="/add" class="mb-4" nuxt>Add A Book</v-btn>
     </section>
