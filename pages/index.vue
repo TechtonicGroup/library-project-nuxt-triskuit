@@ -18,15 +18,14 @@
         itaque velit?
       </p>
 
-      <v-btn to="/bookshelf" class="mb-4" nuxt>See Books</v-btn>
+      <v-btn to="/bookshelf" class="mb-8" nuxt>See Books</v-btn>
 
       <p class="main__p">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione neque
         amet unde magnam. Excepturi quo deleniti quisquam ipsam est asperiores!
       </p>
-      ``
 
-      <v-btn to="/add" class="mb-4" nuxt>Add A Book</v-btn>
+      <v-btn to="/add" class="mb-8" nuxt>Add A Book</v-btn>
     </section>
   </div>
 </template>
