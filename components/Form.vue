@@ -118,6 +118,7 @@ export default {
   methods: {
     submit(e) {
       const formData = Object.fromEntries(new FormData(e.target));
+      console.log(formData);
       if (this.action === "create") {
         axios
           .post("http://localhost:3000/books", formData)

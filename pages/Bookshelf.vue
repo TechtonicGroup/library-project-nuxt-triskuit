@@ -39,6 +39,9 @@ export default {
   watchQuery(newQuery) {
     this.$store.dispatch("getBooks", newQuery.q);
   },
+  watch: {
+    books: (val) => console.log(val),
+  },
 };
 </script>
 

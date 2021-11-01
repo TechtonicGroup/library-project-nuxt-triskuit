@@ -2,7 +2,9 @@
   <v-app>
     <v-app-bar app>
       <v-container class="py-0 fill-height">
-        <v-toolbar-title class="mr-8">Library Project</v-toolbar-title>
+        <v-toolbar-title class="mr-8 hidden-sm-and-down">
+          Library Project
+        </v-toolbar-title>
         <div class="gap">
           <v-btn v-for="link in links" :key="link.name" :to="link.path" text>
             {{ link.name }}
@@ -36,9 +38,11 @@
       </v-container>
     </v-main>
 
-    <v-footer app>
-      <!-- -->
-    </v-footer>
+    <footer padless app fixed class="background--gray">
+      <v-col class="text-center" cols="12">
+        {{ new Date().getFullYear() }} — <strong>Tristan Krug</strong>
+      </v-col>
+    </footer>
   </v-app>
 </template>
 
@@ -72,5 +76,9 @@ export default {
 .gap {
   display: flex;
   column-gap: 5px;
+}
+
+.background--gray {
+  background: #eee;
 }
 </style>

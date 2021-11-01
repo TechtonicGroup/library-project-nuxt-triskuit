@@ -25,7 +25,7 @@
         amet unde magnam. Excepturi quo deleniti quisquam ipsam est asperiores!
       </p>
 
-      <v-btn to="/add" class="mb-8" nuxt>Add A Book</v-btn>
+      <v-btn to="/add" nuxt>Add A Book</v-btn>
     </section>
   </div>
 </template>

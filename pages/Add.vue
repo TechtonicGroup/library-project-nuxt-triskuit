@@ -16,6 +16,7 @@ export default {
         author: null,
         synopsis: null,
         date_published: null,
+        image_url: null,
         pages: null,
       },
     };
