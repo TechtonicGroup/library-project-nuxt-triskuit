@@ -1,0 +1,54 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Black Box Thinking",
+      "author": "Matthew Syed",
+      "synopsis": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, iure! Itaque nesciunt harum obcaecati reprehenderit similique ipsa in accusamus vero.",
+      "date_published": "2015-09-08",
+      "pages": 336,
+      "rating": 3,
+      "cover_url": "https://kbimages1-a.akamaihd.net/29a36e0a-08f1-4003-b5f1-e16cd77f49b4/1200/1200/False/black-box-thinking.jpg"
+    },
+    {
+      "id": 2,
+      "title": "This Lullaby",
+      "author": "Sarah Dessen",
+      "synopsis": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, iure! Itaque nesciunt harum obcaecati reprehenderit similique ipsa in accusamus vero.",
+      "date_published": "2020-03-07",
+      "pages": 371,
+      "rating": 4,
+      "cover_url": "https://images-na.ssl-images-amazon.com/images/I/41LRgC7Vg-L._SX331_BO1,204,203,200_.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Zen and the Art of Motorcycle Maintenance",
+      "author": "Robert M. Pirsig",
+      "synopsis": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur, iure! Itaque nesciunt harum obcaecati reprehenderit similique ipsa in accusamus vero.",
+      "date_published": "1974-01-01",
+      "pages": 231,
+      "rating": 1,
+      "cover_url": "https://images-na.ssl-images-amazon.com/images/I/71tZgyVVbfL.jpg"
+    },
+    {
+      "title": "Memory",
+      "author": "New Author",
+      "synopsis": "Synopsis",
+      "date_published": "2021-10-31",
+      "pages": "222",
+      "rating": "4",
+      "id": 4,
+      "cover_url": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/contemporary-fiction-night-time-book-cover-design-template-1be47835c3058eb42211574e0c4ed8bf_screen.jpg?ts=1594616847"
+    },
+    {
+      "title": "Normal People",
+      "author": "Sally Rooney",
+      "synopsis": "Something",
+      "date_published": "2021-10-31",
+      "pages": "222",
+      "rating": "3",
+      "id": 5,
+      "cover_url": "https://cdn.vox-cdn.com/thumbor/p-gGrwlaU4rLikEAgYhupMUhIJc=/0x0:1650x2475/1200x0/filters:focal(0x0:1650x2475):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/13757614/817BsplxI9L.jpg"
+    }
+  ]
+}
