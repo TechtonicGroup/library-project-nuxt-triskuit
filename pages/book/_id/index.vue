@@ -54,7 +54,7 @@ export default {
     this.$store.dispatch("getBook", this.$route.params.id);
   },
   computed: {
-    ...mapState([book]),
+    ...mapState(['book']),
   },
   methods: {
     deleteBook() {
@@ -64,6 +64,7 @@ export default {
         .catch((err) => console.log(err));
     },
   },
+
 };
 </script>
 
